@@ -16,7 +16,400 @@
         "placeholder": "Descripción de nuevo diagrama STRIDE",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.0.5",
-        "cells": []
+        "cells": [
+          {
+            "position": {
+              "x": 450,
+              "y": 135
+            },
+            "size": {
+              "width": 110,
+              "height": 110
+            },
+            "attrs": {
+              "text": {
+                "text": "Aplicación móvil"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "4164a373-eda1-42b3-881d-749693357781",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Process",
+              "name": "Aplicación móvil",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 661,
+              "y": 150
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Pasarela de pago"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "1cc03d5b-7ee4-4460-a690-ee89008a18ad",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Pasarela de pago",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 800,
+              "y": 30
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Bolsa de valores"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "e0861827-4296-46a1-b1f5-a7ad07950a76",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Bolsa de valores",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 820,
+              "y": 210
+            },
+            "size": {
+              "width": 150,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "Agencias de informe\n crediticio"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "a63469ea-1e42-4dae-9ea5-c4d602b6a772",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Agencias de informe\n crediticio",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 139,
+              "y": 115
+            },
+            "size": {
+              "width": 120,
+              "height": 120
+            },
+            "attrs": {
+              "text": {
+                "text": "Inicio de sesión \nusuario"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "bdbf4e2f-f2a0-4a1e-ba68-235b07741218",
+            "zIndex": 5,
+            "data": {
+              "type": "tm.Process",
+              "name": "Inicio de sesión \nusuario",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 259,
+              "y": 245
+            },
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Operaciones \nbancarias"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "89daf40c-66bf-48b7-aef2-f56bcce306f9",
+            "zIndex": 6,
+            "data": {
+              "type": "tm.Process",
+              "name": "Operaciones \nbancarias",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 259,
+              "y": 37
+            },
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Operaciones \nde inversión"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "bcc1e954-7197-4be9-a902-deac6374e75c",
+            "data": {
+              "type": "tm.Process",
+              "name": "Operaciones \nde inversión",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "zIndex": 7
+          },
+          {
+            "position": {
+              "x": 39,
+              "y": 235
+            },
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Consultas\nde saldo"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "5f8b7d41-4a2e-4ec2-8072-2399fa8a6130",
+            "data": {
+              "type": "tm.Process",
+              "name": "Consultas\nde saldo",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "zIndex": 8
+          },
+          {
+            "position": {
+              "x": 429,
+              "y": 265
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Información clientes"
+              },
+              "topLine": {
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "074c4e48-4dea-44d5-9a13-d564e3814953",
+            "zIndex": 9,
+            "data": {
+              "type": "tm.Store",
+              "name": "Información clientes",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 581,
+              "y": 290
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Detalles de\ntransacciones"
+              },
+              "topLine": {
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "0bcae469-1d90-4ff5-a340-06d230357625",
+            "data": {
+              "type": "tm.Store",
+              "name": "Detalles de\ntransacciones",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "zIndex": 10
+          },
+          {
+            "position": {
+              "x": 613,
+              "y": 322
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Historial de \ninversiones"
+              },
+              "topLine": {
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "08ab1701-fcd6-45f7-84dd-504b70d7fb1d",
+            "data": {
+              "type": "tm.Store",
+              "name": "Historial de \ninversiones",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "zIndex": 11
+          }
+        ]
       }
     ],
     "diagramTop": 1,
